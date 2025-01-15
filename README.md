@@ -1,10 +1,10 @@
-# Image Duplicate Detector
+# Similar Image Finder with Neural Network
 
 A Python tool that identifies and helps you delete duplicate and similar images, using OpenAI's CLIP (Contrastive Language-Image Pre-Training) neural network. It uses the model to generate image embeddings and compares them using cosine similarity.
 
 ## Demo
 
-https://github.com/erenmenges/image-dedup-with-CLIP/blob/main/demo2.mp4
+https://github.com/user-attachments/assets/622d0702-8f6a-483f-9c83-a5b30ab218c5
 
 ## Description
 
