@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 
 class Utils:
+    @staticmethod
     def delete_file(file_path):
         """
         Delete a file from the filesystem.
@@ -14,7 +15,7 @@ class Utils:
         except OSError as e:
             print(f"Error deleting file {file_path}: {e}")
 
-
+    @staticmethod
     def get_image_files(directory_path):
         """
         Recursively find all image files in a directory and its subdirectories.

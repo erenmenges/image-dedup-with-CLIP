@@ -36,6 +36,10 @@ def encode_images(image_paths, batch_size=128):
 
     # Load and encode images
     logger.info('Starting image loading and encoding...')
+    if not image_paths:
+        logger.error("No images found to process")
+        return {}  # Return empty dictionary if no images to process
+    
     batch_start = time.time()
     
     # Create list of PIL images
