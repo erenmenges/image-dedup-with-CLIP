@@ -1,4 +1,4 @@
-# Similar Image Finder with Neural Network
+# Finding Similar Images using a Neural Network
 
 A Python tool that identifies and helps you delete duplicate and similar images, using OpenAI's CLIP (Contrastive Language-Image Pre-Training) neural network. It uses the model to generate image embeddings and compares them using cosine similarity.
 
