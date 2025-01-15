@@ -2,6 +2,8 @@ import Transformer
 import Utils
 from subprocess import call
 from Utils import Utils
+import argparse
+import sys
 
 def main(directory_path):
     # Get image files
@@ -66,8 +68,20 @@ def main(directory_path):
     print(f"Kept: {list(maindict.keys())}")
     return True
 
-
-main('/Users/erenmenges/Desktop/KODLAMA/VScode/similarity-deneme/deneme')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Find and remove duplicate/similar images in a directory.')
+    parser.add_argument('directory', type=str, help='Path to the directory containing images')
+    
+    args = parser.parse_args()
+    
+    try:
+        main(args.directory)
+    except KeyboardInterrupt:
+        print("\nProgram terminated by user")
+        sys.exit(0)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        sys.exit(1)
 
                 
 
