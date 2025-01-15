@@ -1,1 +1,10 @@
- 
+# Ignore backup directory
+/yedek/
+
+# Ignore test directory
+/deneme/
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class 
