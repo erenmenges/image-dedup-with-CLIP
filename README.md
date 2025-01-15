@@ -4,7 +4,7 @@ A Python tool that identifies and helps you delete duplicate and similar images,
 
 ## Demo
 
-![Demo](https://github.com/erenmenges/image-dedup-with-CLIP/blob/main/demo.mov)
+https://github.com/erenmenges/image-dedup-with-CLIP/blob/main/demo2.mp4
 
 ## Description
 
